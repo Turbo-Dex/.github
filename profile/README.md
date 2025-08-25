@@ -8,6 +8,8 @@ With TurboDex you can catalog your cars, discover new vehicles, share your colle
   <img src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart" alt="dart" />
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license" />
   <img src="https://img.shields.io/github/actions/workflow/status/TurboDexOrg/mobile_app/ci.yml?label=CI" alt="ci" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/mobile_app/app.yml?branch=dev&label=Mobile%20App%20CI" alt="ci" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/backend/infra.yml?label=Backend%20CI" alt="ci" />
 </p>
 
 ---
