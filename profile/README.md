@@ -12,6 +12,27 @@ With TurboDex you can catalog your cars, discover new vehicles, share your colle
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/backend/infra.yml?label=Backend%20CI" alt="ci" />
 </p>
 
+Why TurboDex?
+
+Car culture is more than just machines — it’s stories, memories, and connections. But until now, enthusiasts lacked a single place to catalog, share, and discover cars the way collectors do with trading cards or Pokédexes. TurboDex helps by solving these challenges:
+
+For Car Spotters
+Keep track of rare sightings with geo-tags, details, and photos — your own digital logbook of cars in the wild.
+
+For Collectors 
+Showcase your garage like a virtual museum, share it with others, and get inspired by collections around the globe.
+
+For Garagists & Builders
+Identify the vehicle in front of you.
+
+For Communities
+Connect with fellow enthusiasts, share stories, follow trends, and join conversations around the cars you love.
+
+For Dreamers 
+Not everyone can own their dream car — but with TurboDex, you can build your fantasy garage and explore without limits.
+
+In short: TurboDex is the social hub and catalog for cars — whether you’re spotting, collecting, restoring, or just dreaming.
+
 ---
 
 ## Features
@@ -30,6 +51,7 @@ With TurboDex you can catalog your cars, discover new vehicles, share your colle
 * Azure (Auth, AI, Storage)
 * GitHub Actions (CI/CD for build, lint, and tests)
 * Modern Android Gradle setup (AGP 8+, Gradle 8+)
+* Kubernetes (Load balancing and pods)
 
 ---
 
@@ -40,6 +62,9 @@ With TurboDex you can catalog your cars, discover new vehicles, share your colle
 * [Flutter SDK](https://docs.flutter.dev/get-started/install) (3.51 or newer recommended)
 * Dart SDK (included with Flutter)
 * Android Studio / Xcode for emulators and builds
+* Latest version of Docker and MiniKube
+* Azure CLI
+* GPU with CUDA support (Nvidia)
 
 ### Clone & Run
 
@@ -99,6 +124,13 @@ flutter test
 * **Lint & Analyze**: Run `flutter analyze` on pull requests
 * **Tests**: Run unit and widget tests with `flutter test`
 * **Build**: GitHub Actions builds the release APK on merge
+
+---
+
+## Collaborate
+
+> Comming soon
+
 
 ---
 
