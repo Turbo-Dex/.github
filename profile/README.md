@@ -12,23 +12,23 @@ With TurboDex you can catalog your cars, discover new vehicles, share your colle
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/backend/infra.yml?label=Backend%20CI" alt="ci" />
 </p>
 
-Why TurboDex?
+### Why TurboDex?
 
 Car culture is more than just machines — it’s stories, memories, and connections. But until now, enthusiasts lacked a single place to catalog, share, and discover cars the way collectors do with trading cards or Pokédexes. TurboDex helps by solving these challenges:
 
-For Car Spotters
+#### For Car Spotters
 Keep track of rare sightings with geo-tags, details, and photos — your own digital logbook of cars in the wild.
 
-For Collectors 
+#### For Collectors 
 Showcase your garage like a virtual museum, share it with others, and get inspired by collections around the globe.
 
-For Garagists & Builders
+#### For Garagists & Builders
 Identify the vehicle in front of you.
 
-For Communities
+#### For Communities
 Connect with fellow enthusiasts, share stories, follow trends, and join conversations around the cars you love.
 
-For Dreamers 
+#### For Dreamers 
 Not everyone can own their dream car — but with TurboDex, you can build your fantasy garage and explore without limits.
 
 In short: TurboDex is the social hub and catalog for cars — whether you’re spotting, collecting, restoring, or just dreaming.
