@@ -46,6 +46,17 @@ In short: TurboDex is the social hub and catalog for cars — whether you’re s
 
 ---
 
+##  Team Zone
+
+| Name        | Role               | Responsibilities |
+|-------------|--------------------|------------------|
+| [Alexandre](https://github.com/Nekoth93)       |  AI Training     | Build and fine-tune car recognition models, blur AI, and analytics |
+| [Dani](https://github.com/Dansnts)         |   DevOps          | Manage CI/CD pipelines, Scrum Master,Kubernetes, Terraform, cloud infrastructure and multi-task |
+| [Evan](https://github.com/EVAN-ROTHEN)       |  Frontend Dev    | Design and develop the mobile app UI/UX with Flutter and Dart |
+| [Jonathan](https://github.com/JONATHAN-THIEBAUD)        | Backend Dev     | Develop APIs, databases, business logic powering the platform and mobile app developement |
+
+---
+
 ## Tech Stack
 
 * [Flutter](https://flutter.dev/) (Dart 3.x, Material 3, Provider for state management)
