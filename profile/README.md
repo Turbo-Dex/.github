@@ -87,6 +87,50 @@ flutter run
 flutter build apk --release
 ```
 
+
+### Clone & Run AI
+
+```bash
+# Clone the repo
+git clone https://github.com/TurboDexOrg/TurboAi.git
+cd TuboAI
+
+# Train AI
+docker compose up --build
+
+# Run blur AI
+cd TurboBlur
+docker build -t car-blur .
+docker run -p 5000:5000 car-blur
+
+# Run analyse AI
+cd TurboApi
+docker build -t car-api .
+docker run -p 5000:5000 car-api
+```
+
+
+### Deploy on Azure
+
+```bash
+# Clone the repo
+git clone https://github.com/TurboDexOrg/backend.git
+cd backend/AzureInfra/terraform
+
+# Change your values from the var files
+
+# Init terraform
+terraform init
+terraform validate
+
+# Deploy terraform
+terraform plan -out=turbodex
+terraform apply turbodex
+
+# Deploy DB and files (or do it manually)
+ansible-playbook -i inventory_file cd../ansible/playbook.yml
+```
+
 ---
 
 ## 📂 Project Structure
@@ -121,17 +165,46 @@ flutter test
 ---
 
 ## CI/CD
-
+### Mobile App
 * **Lint & Analyze**: Run `flutter analyze` on pull requests
 * **Tests**: Run unit and widget tests with `flutter test`
 * **Build**: GitHub Actions builds the release APK on merge
+
+### TurboAI
+* Build and push images to the ACR
+
+### Backend
+* Build and push infra to Azure (Manual trigger)
 
 ---
 
 ## Collaborate
 
-> Comming soon
+We welcome contributions from car enthusiasts, developers, and AI tinkerers alike!  
+Here’s how you can get involved:
 
+1. **Fork the repo** and create your feature branch  
+   ```bash
+   git checkout -b feature/amazing-feature
+2. Commit your changes with clear messages
+
+```bash
+git commit -m "feat: add amazing feature"
+Push to the branch
+```
+3. Push to the branch
+```bash
+git push origin feature/amazing-feature
+```
+4. Open a Pull Request and describe your changes
+
+
+
+- Check the issues for things to work on.
+- Join the discussions to suggest new ideas or features.
+- Follow our coding style and run tests before submitting PRs.
+
+Together, we can make TurboDex the ultimate hub for car lovers worldwide.
 
 ---
 
@@ -149,6 +222,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Community
 
-* Discussions → [GitHub Discussions](https://github.com/TurboDexOrg/mobile-app/discussions)
-* Issues → [Report a bug](https://github.com/TurboDexOrg/mobile-app/issues)
+* Discussions → [GitHub Discussions](https://github.com/Turbo-Dex/mobile_app/discussions)
+* Issues → [Report a bug](https://github.com/Turbo-Dex/mobile_app/issues)
 * ⭐ Star the repo to support us!
