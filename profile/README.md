@@ -45,6 +45,10 @@ In short: TurboDex is the social hub and catalog for cars — whether you’re s
 * **Built with Flutter** — cross-platform (iOS + Android)
 
 ---
+## Landing page
+[Visit TurboDex Landing Page](https://turbo-dex.github.io/landing_page/)
+
+---
 
 ##  Team Zone
 
@@ -159,8 +163,6 @@ mobile-app/
 ├── ios/                  # iOS native config
 └── pubspec.yaml          # Dependencies & assets
 ```
-
----
 
 ---
 
