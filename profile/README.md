@@ -6,12 +6,16 @@ With TurboDex you can catalog your cars, discover new vehicles, share your colle
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter" alt="flutter" />
   <img src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart" alt="dart" />
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license" />
+  <a href="https://github.com/Turbo-Dex/.github/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license" />
+  </a>
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/mobile_app/app.yml?branch=dev&label=Mobile%20App%20CI" alt="ci" />
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/TurboAi/ai.yml?branch=dev&label=Turbo%20Ai%20CI" alt="ci" />
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/TurboAi/blur.yml?branch=dev&label=Turbo%20Blur%20CI" alt="ci" />
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/backend/infra.yml?label=Backend%20CI" alt="ci" />
 </p>
+
+
 
 ### Why TurboDex?
 
@@ -229,7 +233,7 @@ Together, we can make TurboDex the ultimate hub for car lovers worldwide.
 
 ## 📜 License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+Distributed under the MIT License. See [LICENSE](https://github.com/Turbo-Dex/.github/blob/main/LICENSE) for details.
 
 ---
 
