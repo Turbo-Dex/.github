@@ -10,8 +10,8 @@ With TurboDex you can catalog your cars, discover new vehicles, share your colle
     <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="license" />
   </a>
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/mobile_app/app.yml?branch=dev&label=Mobile%20App%20CI" alt="ci" />
-  <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/TurboAi/ai.yml?branch=dev&label=Turbo%20Ai%20CI" alt="ci" />
-  <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/TurboAi/blur.yml?branch=dev&label=Turbo%20Blur%20CI" alt="ci" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/TurboAi/ai.yml?branch=main&label=Turbo%20Ai%20CI" alt="ci" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/TurboAi/blur.yml?branch=main&label=Turbo%20Blur%20CI" alt="ci" />
   <img src="https://img.shields.io/github/actions/workflow/status/Turbo-Dex/backend/infra.yml?label=Backend%20CI" alt="ci" />
 </p>
 
